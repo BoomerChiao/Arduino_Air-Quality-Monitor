@@ -21,10 +21,45 @@ Arduino Air Quality Monitor 是一款高效能的空氣品質監測器，基於 
 ##  Installation　（安裝）
 Install Arduino software
 - Arduino software downloads：https://www.arduino.cc/en/software
-- (not required) Taojingchi USART HMI software downloads：http://wiki2.tjc1688.com/download/usart_hmi.html
+- 『Optional』 Taojingchi USART HMI software downloads：http://wiki2.tjc1688.com/download/usart_hmi.html
 
 									
 ###  中文
 安裝 Arduino 軟體
 - Arduino 軟體下載：https://www.arduino.cc/en/software
 - (非必要) 淘晶馳 USART HMI 軟體下載：http://wiki2.tjc1688.com/download/usart_hmi.html
+
+
+##  Import data　（導入資料）
+1. Download GitHub Data or Create a New Arduino Project:
+   - You can either download the necessary files from GitHub or start a new Arduino project.
+
+2. Include the Required Arduino Libraries:
+   - To add extra functionality, move the required Arduino library files to your project. You can download these libraries from the "Library" folder on GitHub.
+   - Alternatively, open the Arduino IDE, go to the 「Sketch」 menu, and select 「Include Library」→「Manage Libraries...」 to access and install the libraries.
+
+3. Import the Libraries:
+   - After importing the function libraries, select the project you wish to work on and integrate the necessary code.
+
+
+###  中文
+1. 下載 GitHub 資料或創建新 Arduino 專案：
+   - 你可以從本網的 GitHub 下載所需的資料，或是自行創建一個新的 Arduino 專案。
+    
+2. 導入必要的程式函數庫：
+   - 將必要的函數庫文件從 GitHub 的“Library”資料夾中下載並安裝至指定位置。
+   - 你也可以在 Arduino IDE 中選擇「草稿碼」→「匯入程式庫」→「管理程式庫...」，然後下載所需的程式函數庫。
+
+3. 完成函數庫導入後：
+   - 選擇你要製作的專案並直接開啟即可開始使用。
+
+
+##  Prepare Electronic Materials　（準備電子材料）
+1. Arduino Pro Mini ATmage328 (5V/16M)
+2. USB to UART Adapter (FTDI or CP2102)
+3. 0.96' OLED Display 128×64 4Pin IIC I2C
+4. 『Optional』TJC3224T128_011R_A01 
+5. AHT20
+6. SHT40
+7. SGP30
+8. Jumper Wires
