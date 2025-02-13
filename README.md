@@ -29,6 +29,9 @@ Install Arduino software
 - Arduino 軟體下載：https://www.arduino.cc/en/software
 - (非必要) 淘晶馳 USART HMI 軟體下載：http://wiki2.tjc1688.com/download/usart_hmi.html
 
+![image](https://github.com/user-attachments/assets/f3161a06-ddbb-4171-99bf-20f8f908ab94)![image](https://github.com/user-attachments/assets/b0710f04-fd93-45aa-9160-a2d1f29711fd)
+
+
 
 ##  Import data　（導入資料）
 1. Download GitHub Data or Create a New Arduino Project:
@@ -58,8 +61,12 @@ Install Arduino software
 1. Arduino Pro Mini ATmage328 (5V/16M)
 2. USB to UART Adapter (FTDI or CP2102)
 3. 0.96' OLED Display 128×64 4Pin IIC I2C
-4. 『Optional』TJC3224T128_011R_A01 
-5. AHT20
-6. SHT40
-7. SGP30
-8. Jumper Wires
+4. 『Optional』TJC3224T128_011R_A01
+5. PLANTOWER PMS9003M
+6. AHT20
+7. SHT40 (3.3~5V)
+8. SGP30
+9. Jumper Wires
+![image](https://github.com/user-attachments/assets/32860887-41da-4aaa-b610-3b2edfed01f2)
+![image](https://github.com/user-attachments/assets/11a21991-e7fd-4b30-83d2-aa7afde7e7ca)
+
