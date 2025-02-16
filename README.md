@@ -70,3 +70,34 @@ Install Arduino software
 ![image](https://github.com/user-attachments/assets/32860887-41da-4aaa-b610-3b2edfed01f2)
 ![image](https://github.com/user-attachments/assets/11a21991-e7fd-4b30-83d2-aa7afde7e7ca)
 
+##  Pin wiring　（引腳接線）
+
+以下提供兩種不同的引腳接線方式，主要針對不同的面板類型。
+
+請依據你的成品需求進行接線。下圖分別展示 OLED Display 與 TJC3224T128_011R_A01 的接線方式。
+
+![image](https://github.com/user-attachments/assets/27b40138-775a-4e6f-b1ef-655c7a60583f)
+- 請注意，該設計僅持支援 5V 電壓範圍。因此，建議將 VCC 預設為 5V 電源以確保正常運作。
+- Arduino Pro Mini: A4 (SDA) ; A5 (SCL) ; D2 (PMS9003M_RXD) ; D3 (PMS9003M_TXD)
+- AHT20: SDA (A4) ; SCL (A5)
+- SHT40: SDA (A4) ; SCL (A5)
+- SGP30: SDA (A4) ; SCL (A5)
+- OLED Display: SDA (A4) ; SCL (A5)
+- PMS9003M: RXD (D2) ; TXD (D3)
+
+　　
+
+![image](https://github.com/user-attachments/assets/c7ff4b5a-bc86-40f1-9ed6-1c33ea98351b)
+- 請注意，該設計僅持支援 5V 電壓範圍。因此，建議將 VCC 預設為 5V 電源以確保正常運作。
+- Arduino Pro Mini: A4 (SDA) ; A5 (SCL) ; D2 (PMS9003M_RXD) ; D3 (PMS9003M_TXD) ; D9 (TJC3224T128_RXD) ; D8 (TJC3224T128_TXD) 
+- AHT20: SDA (A4) ; SCL (A5)
+- SHT40: SDA (A4) ; SCL (A5)
+- SGP30: SDA (A4) ; SCL (A5)
+- PMS9003M: RXD (D2) ; TXD (D3)
+- TJC3224T128: RXD (D9) ; TXD (D8)
+
+
+
+##  Program Code　（程式代碼）
+
+
