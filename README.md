@@ -70,3 +70,73 @@ Install Arduino software
 ![image](https://github.com/user-attachments/assets/32860887-41da-4aaa-b610-3b2edfed01f2)
 ![image](https://github.com/user-attachments/assets/11a21991-e7fd-4b30-83d2-aa7afde7e7ca)
 
+##  Pin wiring　（引腳接線）
+
+以下提供兩種不同的引腳接線方式，主要針對不同的面板類型。
+
+請依據你的成品需求進行接線。下圖分別展示 OLED Display 與 TJC3224T128_011R_A01 的接線方式。
+
+![image](https://github.com/user-attachments/assets/27b40138-775a-4e6f-b1ef-655c7a60583f)
+- 請注意，該設計僅持支援 5V 電壓範圍。因此，建議將 VCC 預設為 5V 電源以確保正常運作。
+- Arduino Pro Mini: A4 (SDA) ; A5 (SCL) ; D2 (PMS9003M_RXD) ; D3 (PMS9003M_TXD)
+- AHT20: SDA (A4) ; SCL (A5)
+- SHT40: SDA (A4) ; SCL (A5)
+- SGP30: SDA (A4) ; SCL (A5)
+- OLED Display: SDA (A4) ; SCL (A5)
+- PMS9003M: RXD (D2) ; TXD (D3)
+
+　　
+
+![image](https://github.com/user-attachments/assets/c7ff4b5a-bc86-40f1-9ed6-1c33ea98351b)
+- 請注意，該設計僅持支援 5V 電壓範圍。因此，建議將 VCC 預設為 5V 電源以確保正常運作。
+- Arduino Pro Mini: A4 (SDA) ; A5 (SCL) ; D2 (PMS9003M_RXD) ; D3 (PMS9003M_TXD) ; D9 (TJC3224T128_RXD) ; D8 (TJC3224T128_TXD) 
+- AHT20: SDA (A4) ; SCL (A5)
+- SHT40: SDA (A4) ; SCL (A5)
+- SGP30: SDA (A4) ; SCL (A5)
+- PMS9003M: RXD (D2) ; TXD (D3)
+- TJC3224T128: RXD (D9) ; TXD (D8)
+
+
+
+##  Program Code　（程式代碼）
+本次專題採用了網上提供程式數據庫進行管理和顯示，為了確保代碼能夠正常運行，請事先安裝以下程式庫：
+
+1. AHT20 Library
+   - 用途：AHT20 用於 I²C 介面驅動、校準與數據讀取，以及溫濕度轉換與補償 等功能，使能夠讀取準確的環境數據。
+   - 安裝方式如下
+     - 打開 Arduino IDE 點擊「工具」 > 「管理庫...」。
+     - 在程式庫管理器的搜索框中輸入 "AHT20"。
+     - 在搜尋結果中找到 "AHT20" 點擊 「安裝」 按鈕。
+
+       
+2. Adafruit_SHT4x Library
+   - 用途：用於 SHT4x 系列溫濕度感測器的 I²C 介面驅動、數據讀取、測量精度設定 等功能，使能夠讀取精確的環境溫濕度數據。
+   - 安裝方式如下
+     - 打開 Arduino IDE 點擊「工具」 > 「管理庫...」。
+     - 在程式庫管理器的搜索框中輸入 "SHT4x"。
+     - 在搜尋結果中找到 "Adafruit SHT4x Library" 點擊 「安裝」 按鈕。
+
+
+3. SGP30 Library
+   - 用途：驅動 SGP30 感測器，透過 I²C 讀取 TVOC 和 eCO₂ 數據，執行基線校準與補償，提高測量準確度。
+   - 安裝方式如下
+     - 打開 Arduino IDE 點擊「工具」 > 「管理庫...」。
+     - 在程式庫管理器的搜索框中輸入 "SGP30"。
+     - 在搜尋結果中找到 "SGP30" 點擊 「安裝」 按鈕。
+    
+
+4. PMS Library
+   - 用途：主要用於驅動 PMS (Plantower) 系列空氣品質感測器，可測量讀取 PM1.0、PM2.5 和 PM10 懸浮微粒濃度。
+   - 安裝方式如下
+     - 打開 Arduino IDE 點擊「工具」 > 「管理庫...」。
+     - 在程式庫管理器的搜索框中輸入 "PMS"。
+     - 在搜尋結果中找到 "PMS Library" 點擊 「安裝」 按鈕。
+     
+    
+5. U8g2 Library
+   - 用途：用於驅動 OLED/LCD 顯示器，支援 I²C、SPI 通訊，可顯示文字、圖形、圖片 等功能。
+   - 安裝方式如下
+     - 打開 Arduino IDE 點擊「工具」 > 「管理庫...」。
+     - 在程式庫管理器的搜索框中輸入 "U8g2"。
+     - 在搜尋結果中找到 "U8g2" 點擊 「安裝」 按鈕。
+
