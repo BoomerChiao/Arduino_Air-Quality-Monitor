@@ -107,6 +107,8 @@ Install Arduino software
      - 打開 Arduino IDE 點擊「工具」 > 「管理庫...」。
      - 在程式庫管理器的搜索框中輸入 "AHT20"。
      - 在搜尋結果中找到 "AHT20" 點擊 「安裝」 按鈕。
+       ![image](https://github.com/user-attachments/assets/d8d2d553-a49e-482b-b60f-660d08b17fdf)
+
 
        
 2. Adafruit_SHT4x Library
@@ -115,6 +117,8 @@ Install Arduino software
      - 打開 Arduino IDE 點擊「工具」 > 「管理庫...」。
      - 在程式庫管理器的搜索框中輸入 "SHT4x"。
      - 在搜尋結果中找到 "Adafruit SHT4x Library" 點擊 「安裝」 按鈕。
+       ![image](https://github.com/user-attachments/assets/89dd46f8-98a6-449b-bea9-2ceed2bb680f)
+
 
 
 3. SGP30 Library
@@ -123,7 +127,8 @@ Install Arduino software
      - 打開 Arduino IDE 點擊「工具」 > 「管理庫...」。
      - 在程式庫管理器的搜索框中輸入 "SGP30"。
      - 在搜尋結果中找到 "SGP30" 點擊 「安裝」 按鈕。
-    
+    ![image](https://github.com/user-attachments/assets/5bd1e041-0a4a-40fb-bebe-660f46146bdb)
+
 
 4. PMS Library
    - 用途：主要用於驅動 PMS (Plantower) 系列空氣品質感測器，可測量讀取 PM1.0、PM2.5 和 PM10 懸浮微粒濃度。
@@ -131,6 +136,8 @@ Install Arduino software
      - 打開 Arduino IDE 點擊「工具」 > 「管理庫...」。
      - 在程式庫管理器的搜索框中輸入 "PMS"。
      - 在搜尋結果中找到 "PMS Library" 點擊 「安裝」 按鈕。
+       ![image](https://github.com/user-attachments/assets/a11838c0-11a1-451e-848f-320e05f28e70)
+
      
     
 5. U8g2 Library
@@ -139,4 +146,5 @@ Install Arduino software
      - 打開 Arduino IDE 點擊「工具」 > 「管理庫...」。
      - 在程式庫管理器的搜索框中輸入 "U8g2"。
      - 在搜尋結果中找到 "U8g2" 點擊 「安裝」 按鈕。
+![image](https://github.com/user-attachments/assets/77dfd004-388f-4494-b862-28c7bc0570be)
 
