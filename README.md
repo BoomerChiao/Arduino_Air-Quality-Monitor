@@ -99,7 +99,10 @@ Install Arduino software
 
 
 ##  Program Code　（程式代碼）
-本次專題採用了網上提供程式數據庫進行管理和顯示，為了確保代碼能夠正常運行，請事先安裝以下程式庫：
+本次專題採用了網上提供程式數據庫進行管理和顯示，為了確保代碼能夠正常運行，請事先安裝五項程式庫分別為AHT20、Adafruit_SHT4x、SGP30、PMS、U8g2
+
+
+以下程式庫安裝示範：
 
 1. AHT20 Library
    - 用途：AHT20 用於 I²C 介面驅動、校準與數據讀取，以及溫濕度轉換與補償 等功能，使能夠讀取準確的環境數據。
@@ -147,4 +150,35 @@ Install Arduino software
      - 在程式庫管理器的搜索框中輸入 "U8g2"。
      - 在搜尋結果中找到 "U8g2" 點擊 「安裝」 按鈕。
 ![image](https://github.com/user-attachments/assets/77dfd004-388f-4494-b862-28c7bc0570be)
+
+安裝完成後，可前往 GitHub 的 Arduino code 資料夾，並下載 Aht20xSHT40xSgp30xPMSxU8G2xUSARTLCD 程式碼。
+下載後，可將其匯入 Arduino IDE 或相應的開發環境，進行編譯與燒錄。
+
+您可以從以下鏈接下載代碼：https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Code/Aht20xSHT40xSgp30xPMSxU8G2xUSARTLCD
+
+.
+
+.
+
+P.S. 其他安裝Library
+   - 打開 Arduino IDE 點擊「sketch」 > 「程式庫」 > 「加入.Zip程式庫...」。
+   - 搜尋 已下載Zip程式庫 ，點擊 「開啟」 按鈕。
+##  Arduino Pro or Pro Mini USB to UART Hookup Guide　（Arduino Pro、Pro Mini USB 燒入連接指南）
+The Arduino Pro Mini and Arduino Pro are compact, low-power versions of the Arduino board. To program these boards or communicate with them via a computer, you'll need a USB-to-UART (Universal Asynchronous Receiver/Transmitter) adapter.
+
+![image](https://github.com/user-attachments/assets/06e75a60-4666-4329-bbba-8ee2ec47657e)
+Picture from：https://www.b4x.com/android/forum/threads/how-to-connect-an-arduino-pro-mini-to-a-pc-via-a-usb-to-serial-module.77010/
+1. Steps to Connections
+   - USB-to-UART Adapter VCC → Arduino Pro Mini VCC
+     - USB-to-UART Adapter Pins Connect to Arduino Pro Mini VCC (make sure it matches the voltage of your Pro Mini)
+   - USB-to-UART Adapter GND → Arduino Pro Mini GND
+   - USB-to-UART Adapter TX → Arduino Pro Mini RX
+   - USB-to-UART Adapter RX → Arduino Pro Mini TX
+   - USB-to-UART Adapter DTR → Arduino Pro Mini DTR
+2. Troubleshooting Tips
+   - Check Connections： Ensure all wires are connected securely and to the correct pins.
+   - Verify Voltage： Make sure the VCC connection matches the voltage requirements of your Pro Mini.
+   - Auto-reset： If uploading code fails, try manually pressing the reset button on the Pro Mini just before uploading.
+
+##  Advanced Design　（進階設計）
 
