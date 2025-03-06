@@ -187,7 +187,7 @@ Picture from：https://www.b4x.com/android/forum/threads/how-to-connect-an-ardui
 
 ###  Circuit Design （電路設計）
 ![image](https://github.com/user-attachments/assets/fc58c8ef-e276-4195-9208-d72b3a10fb52)
-- 左側 MCU 電路的 I/O 小電容可用於 低頻抗干擾，提升訊號穩定性。
+- 左側 MCU 電路的 I/O 口小電容可以用來 抑制低頻噪聲 ，並提高訊號穩定性。
 - 而 I²C 通訊接口上的 上拉電阻 則確保 SCL 和 SDA 能夠正常運作，防止訊號浮空，降低誤觸發與數據錯誤的風險，進一步提升通訊可靠性，避免異常狀況發生。
 - 右側 Connector USB1 主要設計 USB Type-C 充電輸入，CC（Configuration Channel）腳位加 5.1kΩ 下拉電阻其主要作為，識別設備為 Sink（受電設備），使 Source（供電設備）正確提供電力，確保正確的電流供應，根據 Source 端的電壓判斷最大可用電流，且支援 C to C 連接線的正確識別，即使使用 USB-C 充電器與 USB-C 線材，也能讓 Source 正確認定此設備為受電設備並進行供電。
 - 而 Connector U7 插座對應匿名 IP5306，主要是為了兼容市面上常見的 IP5306 充電管理模組，方便直接連接使用。
