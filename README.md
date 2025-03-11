@@ -195,3 +195,50 @@ Picture from：https://www.b4x.com/android/forum/threads/how-to-connect-an-ardui
 
 ![image](https://github.com/user-attachments/assets/1ecd17ff-f9c4-4eb9-860a-081d3e06b4e9)
 
+###  PCB layout （電路布局）
+
+![image](https://github.com/user-attachments/assets/37251f03-d573-4346-a2e7-56e3a9b486cf)
+
+###  PCB Prepare Electronic Materials　（PCB準備電子材料）
+1. SMD MLCC 
+   - C1、C2：N/A
+   - C3、C4、C5、C6、C8：100nF-1206 or N/A
+   - C9：10nF-0805 or N/A
+   - C7：47uf-50v or  N/A
+   - C10、C11、C12、C13、C14：22uF-1206
+   - C15、C16：10uF-1206
+   
+
+2. SMD Resistors
+   - R1：30kΩ-1206
+   - R2：4.7kΩ-1206
+   - R3、R4：5.1kΩ-1206
+   - R5、R6：4.7kΩ-1206 or N/A
+   - R7、R8：0~1.2kΩ-1206 or N/A
+   - R9、R11：10kΩ-1206
+   - R10:0.5Ω-1206
+   - R12:2Ω-1206
+   - F1：TLC-MSMD160/6 or 0Ω-1812
+
+3. SMD Active component
+   - D1：SMBJ6.0CA or N/A
+   - U8：IP5306
+   - U2：AMS1117-3.3
+  
+4. SMD LED
+   - LED1、LED2、LED3、LED4：LED-1206 (XL-3216UGC)
+
+5. SMD Inductor
+   - L1：0650-1.0UH (CXP0650-1R0M-AG(1.0uh))
+   - L2：1206-Ferrite Beads (CBW321609U800T)
+   
+6. DIP and SMD Connectors 
+   - CN1：SMD P=1.25mm、1x8P、Surface Mount，Right Angle (YIYUAN YTC-A1251-08ABW)
+   - U1、U2、U4、U5、U6：DIP 2.54mm Plugin 1x4P Female Headers (BX-PM2.54-1-4PY)
+   - U7：DIP 2.54mm Plugin 1x6P Female Headers (BX-PM2.54-1-6PY)
+   - U9：DIP 2.54mm Plugin 3P Straight 1x3P Pin Headers or 3P slide switch (BX-PZ2.54-1-3PZZ) or (3Pin Slide Switches-SPDT)
+   - U10、U11：DIP 6x6x7mm With bracket Tactile Switches (ZX-QC66-7.0ZJ)
+   - U11：N/A
+
+7. Power Connector
+   - USB：SMD TYPE-C 6Pin (KH-TYPE-C-6P-T)
