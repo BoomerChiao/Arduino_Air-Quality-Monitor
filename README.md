@@ -242,3 +242,27 @@ Picture from：https://www.b4x.com/android/forum/threads/how-to-connect-an-ardui
 
 7. Power Connector
    - USB：SMD TYPE-C 6Pin (KH-TYPE-C-6P-T)
+
+
+###  3D casing （3D外殼）
+
+![image](https://github.com/user-attachments/assets/2df0a756-9bfb-4d62-a3d2-f06f0fde024f)
+
+![image](https://github.com/user-attachments/assets/24f6962f-13e3-4e89-b849-e94ffdba82e8)
+
+⬆上圖所示的外殼分別為 Enclosure_A、Enclosure_B、Enclosure_C 和 Enclosure_Button 的 STL 檔案
+
+.
+
+![image](https://github.com/user-attachments/assets/5e6b1661-6399-4a89-9974-7d9b89bbcf68)
+
+⬆上圖所示的外殼分別為 Enclosure_Bracket_A、Enclosure_Bracket_B 和 Enclosure_Bracket_C 的 STL 檔案
+
+![image](https://github.com/user-attachments/assets/f5ed9a49-17f0-4481-8f44-68b133faf8a6)
+
+檔案共 7 個，主要外殼檔案包含 Enclosure_A、Enclosure_B、Enclosure_C、Enclosure_Button 共 4 個，以及後支架 Enclosure_Bracket_A、Enclosure_Bracket_B、Enclosure_Bracket_C 共 3 個。
+
+你可以在這裡獲得3D檔案下載：
+https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure
+
+
