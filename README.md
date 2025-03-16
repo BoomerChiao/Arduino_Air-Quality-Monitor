@@ -163,6 +163,12 @@ Install Arduino software
 P.S. 其他安裝Library
    - 打開 Arduino IDE 點擊「sketch」 > 「程式庫」 > 「加入.Zip程式庫...」。
    - 搜尋 已下載Zip程式庫 ，點擊 「開啟」 按鈕。
+
+##  USART HMI Code
+依據官網提供的安裝包下載並安裝後，即可開啟應用程式。
+接著，選擇從 Git 取得的 USART HMI Code 程式檔案，開啟後即可將程式碼下載至購買的 TJC3224T128_011R_A01 電路板上進行燒錄。
+
+
 ##  Arduino Pro or Pro Mini USB to UART Hookup Guide　（Arduino Pro、Pro Mini USB 燒入連接指南）
 The Arduino Pro Mini and Arduino Pro are compact, low-power versions of the Arduino board. To program these boards or communicate with them via a computer, you'll need a USB-to-UART (Universal Asynchronous Receiver/Transmitter) adapter.
 
