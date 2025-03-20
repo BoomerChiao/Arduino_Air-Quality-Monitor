@@ -166,7 +166,28 @@ P.S. 其他安裝Library
 
 ##  USART HMI Code
 依據官網提供的安裝包下載並安裝後，即可開啟應用程式。
-接著，選擇從 Git 取得的 USART HMI Code 程式檔案，開啟後即可將程式碼下載至購買的 TJC3224T128_011R_A01 電路板上進行燒錄。
+接著，選擇從 Git 取得的 USART HMI Code 程式檔案「SGP_ARDUINO_.HMI」，開啟後即可將程式碼下載至購買的 TJC3224T128_011R_A01 電路板上進行燒錄。
+
+您可以從以下鏈接下載代碼：https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Code/USART%20HMI
+
+1. 開啟 Git 取得的「SGP_ARDUINO_.HMI」後，直接點擊「下載」。
+![image](https://github.com/user-attachments/assets/82d4c529-5171-4741-a2a5-fa6b8e685ea8)
+   
+
+2. 下載完成後，系統會跳出「串口下載」視窗。接著，點擊 「連機並開始下載」 以啟動程序。
+![image](https://github.com/user-attachments/assets/33829e79-34ff-450c-8d9d-3e6059d6663a)
+   
+
+3. 下載過程中，畫面會顯示「開始下載」等提示訊息。
+![image](https://github.com/user-attachments/assets/b45297b3-cfcf-47f2-a71b-aa637d75cb4b)
+   - 若未顯示，請檢查 USB 連接是否正常，重新插拔 USB 端口後，再次開啟「串口下載」視窗。
+
+
+4. 確認 USART HMI LCD 是否正在更新。
+
+![image](https://github.com/user-attachments/assets/78311e35-6c56-467b-8606-73c480535786)
+   - 若畫面顯示更新進度，表示下載成功。
+   - 若無更新，請重新檢查線路並重試。
 
 
 ##  Arduino Pro or Pro Mini USB to UART Hookup Guide　（Arduino Pro、Pro Mini USB 燒入連接指南）
