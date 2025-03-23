@@ -50,12 +50,13 @@ Install Arduino software
 
 ##  Pin wiring　（引腳接線）
 
-以下提供兩種不同的引腳接線方式，主要針對不同的面板類型。
+Here are two different wiring methods, designed for different panel types.
 
-請依據你的成品需求進行接線。下圖分別展示 OLED Display 與 TJC3224T128_011R_A01 的接線方式。
+Please wire accordingly based on your project requirements.
+The diagrams below illustrate the wiring for the OLED Display and TJC3224T128_011R_A01, respectively.
 
 ![image](https://github.com/user-attachments/assets/27b40138-775a-4e6f-b1ef-655c7a60583f)
-- 請注意，該設計僅持支援 5V 電壓範圍。因此，建議將 VCC 預設為 5V 電源以確保正常運作。
+- Please note that this design only supports a 5V voltage range. Therefore, it is recommended to set VCC to 5V by default to ensure proper operation.
 - Arduino Pro Mini: A4 (SDA) ; A5 (SCL) ; D2 (PMS9003M_RXD) ; D3 (PMS9003M_TXD)
 - AHT20: SDA (A4) ; SCL (A5)
 - SHT40: SDA (A4) ; SCL (A5)
@@ -66,7 +67,7 @@ Install Arduino software
 　　
 
 ![image](https://github.com/user-attachments/assets/c7ff4b5a-bc86-40f1-9ed6-1c33ea98351b)
-- 請注意，該設計僅持支援 5V 電壓範圍。因此，建議將 VCC 預設為 5V 電源以確保正常運作。
+- Please note that this design only supports a 5V voltage range. Therefore, it is recommended to set VCC to 5V by default to ensure proper operation.
 - Arduino Pro Mini: A4 (SDA) ; A5 (SCL) ; D2 (PMS9003M_RXD) ; D3 (PMS9003M_TXD) ; D9 (TJC3224T128_RXD) ; D8 (TJC3224T128_TXD) 
 - AHT20: SDA (A4) ; SCL (A5)
 - SHT40: SDA (A4) ; SCL (A5)
@@ -77,95 +78,94 @@ Install Arduino software
 
 
 ##  Program Code　（程式代碼）
-本次專題採用了網上提供程式數據庫進行管理和顯示，為了確保代碼能夠正常運行，請事先安裝五項程式庫分別為AHT20、Adafruit_SHT4x、SGP30、PMS、U8g2
+This project utilizes an online program database for management and display. To ensure the code runs properly, please install the following five libraries in advance: AHT20, Adafruit_SHT4x, SGP30, PMS, and U8g2.
 
-
-以下程式庫安裝示範：
+Below is a demonstration of the library installation:
 
 1. AHT20 Library
-   - 用途：AHT20 用於 I²C 介面驅動、校準與數據讀取，以及溫濕度轉換與補償 等功能，使能夠讀取準確的環境數據。
-   - 安裝方式如下
-     - 打開 Arduino IDE 點擊「工具」 > 「管理庫...」。
-     - 在程式庫管理器的搜索框中輸入 "AHT20"。
-     - 在搜尋結果中找到 "AHT20" 點擊 「安裝」 按鈕。
+   - Purpose: AHT20 is used for I²C interface control, calibration, data reading, as well as temperature and humidity conversion and compensation. This enables accurate environmental data acquisition.
+   - Installation Steps:
+     - Open Arduino IDE and click "Tools" > "Manage Libraries...".
+     - In the Library Manager search bar, enter "AHT20".
+     - Find "AHT20" in the search results and click the "Install" button.
        ![image](https://github.com/user-attachments/assets/d8d2d553-a49e-482b-b60f-660d08b17fdf)
 
 
        
 2. Adafruit_SHT4x Library
-   - 用途：用於 SHT4x 系列溫濕度感測器的 I²C 介面驅動、數據讀取、測量精度設定 等功能，使能夠讀取精確的環境溫濕度數據。
-   - 安裝方式如下
-     - 打開 Arduino IDE 點擊「工具」 > 「管理庫...」。
-     - 在程式庫管理器的搜索框中輸入 "SHT4x"。
-     - 在搜尋結果中找到 "Adafruit SHT4x Library" 點擊 「安裝」 按鈕。
+   - Purpose: Used for I²C interface control, data reading, and measurement accuracy settings of the SHT4x series temperature and humidity sensors, enabling precise environmental data acquisition.
+   - Installation Steps:
+     - Open Arduino IDE and click "Tools" > "Manage Libraries...".
+     - In the Library Manager search bar, enter "SHT4x".
+     - Find "Adafruit SHT4x Library" in the search results and click the "Install" button.
        ![image](https://github.com/user-attachments/assets/89dd46f8-98a6-449b-bea9-2ceed2bb680f)
 
 
 
 3. SGP30 Library
-   - 用途：驅動 SGP30 感測器，透過 I²C 讀取 TVOC 和 eCO₂ 數據，執行基線校準與補償，提高測量準確度。
-   - 安裝方式如下
-     - 打開 Arduino IDE 點擊「工具」 > 「管理庫...」。
-     - 在程式庫管理器的搜索框中輸入 "SGP30"。
-     - 在搜尋結果中找到 "SGP30" 點擊 「安裝」 按鈕。
+   - Purpose: Drive the SGP30 sensor to read TVOC and eCO₂ data via I²C, perform baseline calibration and compensation to improve measurement accuracy.
+   - Installation Steps:
+     - Open Arduino IDE and click "Tools" > "Manage Libraries...".
+     - In the Library Manager search bar, enter "SGP30".
+     - Find "SGP30" in the search results and click the "Install" button.
     ![image](https://github.com/user-attachments/assets/5bd1e041-0a4a-40fb-bebe-660f46146bdb)
 
 
 4. PMS Library
-   - 用途：主要用於驅動 PMS (Plantower) 系列空氣品質感測器，可測量讀取 PM1.0、PM2.5 和 PM10 懸浮微粒濃度。
-   - 安裝方式如下
-     - 打開 Arduino IDE 點擊「工具」 > 「管理庫...」。
-     - 在程式庫管理器的搜索框中輸入 "PMS"。
-     - 在搜尋結果中找到 "PMS Library" 點擊 「安裝」 按鈕。
+   - Purpose: Primarily used to drive the PMS (Plantower) series air quality sensors, which can measure and read the concentrations of PM1.0, PM2.5, and PM10 suspended particulate matter.
+   - Installation Steps:
+     - Open Arduino IDE and click "Tools" > "Manage Libraries...".
+     - In the Library Manager search bar, enter "PMS".
+     - Find "PMS Library" in the search results and click the "Install" button.
        ![image](https://github.com/user-attachments/assets/a11838c0-11a1-451e-848f-320e05f28e70)
 
      
     
 5. U8g2 Library
-   - 用途：用於驅動 OLED/LCD 顯示器，支援 I²C、SPI 通訊，可顯示文字、圖形、圖片 等功能。
-   - 安裝方式如下
-     - 打開 Arduino IDE 點擊「工具」 > 「管理庫...」。
-     - 在程式庫管理器的搜索框中輸入 "U8g2"。
-     - 在搜尋結果中找到 "U8g2" 點擊 「安裝」 按鈕。
+   - Purpose: Used to drive OLED/LCD displays, supporting I²C and SPI communication, with the ability to display text, graphics, images, and more.
+   - Installation Steps:
+     - Open Arduino IDE and click "Tools" > "Manage Libraries...".
+     - In the Library Manager search bar, enter "U8g2".
+     - Find "U8g2" in the search results and click the "Install" button.
 ![image](https://github.com/user-attachments/assets/77dfd004-388f-4494-b862-28c7bc0570be)
 
-安裝完成後，可前往 GitHub 的 Arduino code 資料夾，並下載 Aht20xSHT40xSgp30xPMSxU8G2xUSARTLCD 程式碼。
-下載後，可將其匯入 Arduino IDE 或相應的開發環境，進行編譯與燒錄。
+After the installation is complete, you can go to the GitHub Arduino code folder and download the Aht20xSHT40xSgp30xPMSxU8G2xUSARTLCD code.
+Once downloaded, you can import it into Arduino IDE or the appropriate development environment for compilation and uploading.
 
-您可以從以下鏈接下載代碼：https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Code/Aht20xSHT40xSgp30xPMSxU8G2xUSARTLCD
-
-.
+Download link：https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Code/Aht20xSHT40xSgp30xPMSxU8G2xUSARTLCD
 
 .
 
-P.S. 其他安裝Library
-   - 打開 Arduino IDE 點擊「sketch」 > 「程式庫」 > 「加入.Zip程式庫...」。
-   - 搜尋 已下載Zip程式庫 ，點擊 「開啟」 按鈕。
+.
+
+P.S. Other Library Installation
+   - Open Arduino IDE and click "Sketch" > "Include Library" > "Add .ZIP Library...".
+   - Search for the downloaded .ZIP library and click the "Open" button.
 
 ##  USART HMI Code
-依據官網提供的安裝包下載並安裝後，即可開啟應用程式。
-接著，選擇從 Git 取得的 USART HMI Code 程式檔案「SGP_ARDUINO_.HMI」，開啟後即可將程式碼下載至購買的 TJC3224T128_011R_A01 電路板上進行燒錄。
+After downloading and installing the installation package provided on the official website, you can open the application.
+Next, select the USART HMI Code file "SGP_ARDUINO_.HMI" obtained from Git. After opening it, you can download the code to the purchased TJC3224T128_011R_A01 circuit board for flashing.
 
-您可以從以下鏈接下載代碼：https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Code/USART%20HMI
+Download link：https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Code/USART%20HMI
 
-1. 開啟 Git 取得的「SGP_ARDUINO_.HMI」後，直接點擊「下載」。
+1. After opening the "SGP_ARDUINO_.HMI" obtained from Git, simply click "下载".
 ![image](https://github.com/user-attachments/assets/82d4c529-5171-4741-a2a5-fa6b8e685ea8)
    
 
-2. 下載完成後，系統會跳出「串口下載」視窗。接著，點擊 「連機並開始下載」 以啟動程序。
+2. After clicking the "下载" button, the system will display the "串口下载" window. Then, click "连机并开始下载" to initiate the process.
 ![image](https://github.com/user-attachments/assets/33829e79-34ff-450c-8d9d-3e6059d6663a)
    
 
-3. 下載過程中，畫面會顯示「開始下載」等提示訊息。
+3. During the download process, the screen will display prompt messages such as "开始下载".
 ![image](https://github.com/user-attachments/assets/b45297b3-cfcf-47f2-a71b-aa637d75cb4b)
-   - 若未顯示，請檢查 USB 連接是否正常，重新插拔 USB 端口後，再次開啟「串口下載」視窗。
+   - If it does not appear, please check if the USB connection is working properly. After re-plugging the USB port, reopen the "串口下载" window.
 
 
-4. 確認 USART HMI LCD 是否正在更新。
+4. Please confirm if the USART HMI LCD is being updated.
 
 ![image](https://github.com/user-attachments/assets/78311e35-6c56-467b-8606-73c480535786)
-   - 若畫面顯示更新進度，表示下載成功。
-   - 若無更新，請重新檢查線路並重試。
+   - If the screen displays the update progress, it means the download was successful.
+   - If there is no update, please recheck the wiring and try again.
 
 
 ##  Arduino Pro or Pro Mini USB to UART Hookup Guide　（Arduino Pro、Pro Mini USB 燒入連接指南）
@@ -186,16 +186,16 @@ Picture from：https://www.b4x.com/android/forum/threads/how-to-connect-an-ardui
    - Auto-reset： If uploading code fails, try manually pressing the reset button on the Pro Mini just before uploading.
 
 ##  Advanced Design　（進階設計）
-為了簡化電子製作過程，可採用PCB印刷技術，以取代雜亂且難以管理的線路。
+To simplify the electronics manufacturing process, PCB printing technology can be used to replace messy and difficult-to-manage wiring.
 
-這不僅能顯著降低錯誤連接的風險，還能提升產品的穩定性與可靠性，特別是在 小型化 設備中，PCB能有效整合精細的電路佈局，減少體積並提升生產效率，使產品更加輕薄且具備更高的性能表現。
+This not only significantly reduces the risk of incorrect connections but also enhances the stability and reliability of the product. Especially in compact devices, PCBs can effectively integrate intricate circuit layouts, reduce size, and improve production efficiency, making the product thinner and more powerful.
 
 ###  Circuit Design （電路設計）
 ![image](https://github.com/user-attachments/assets/fc58c8ef-e276-4195-9208-d72b3a10fb52)
-- 左側 MCU 電路的 I/O 口小電容可以用來 抑制低頻噪聲 ，並提高訊號穩定性。
-- 而 I²C 通訊接口上的 上拉電阻 則確保 SCL 和 SDA 能夠正常運作，防止訊號浮空，降低誤觸發與數據錯誤的風險，進一步提升通訊可靠性，避免異常狀況發生。
-- 右側 Connector USB1 主要設計 USB Type-C 充電輸入，CC（Configuration Channel）腳位加 5.1kΩ 下拉電阻其主要作為，識別設備為 Sink（受電設備），使 Source（供電設備）正確提供電力，確保正確的電流供應，根據 Source 端的電壓判斷最大可用電流，且支援 C to C 連接線的正確識別，即使使用 USB-C 充電器與 USB-C 線材，也能讓 Source 正確認定此設備為受電設備並進行供電。
-- 而 Connector U7 插座對應匿名 IP5306，主要是為了兼容市面上常見的 IP5306 充電管理模組，方便直接連接使用。
+- The small capacitor on the left-side MCU I/O pins suppresses low-frequency noise and improves signal stability.
+- The pull-up resistors on the I²C interface ensure proper SCL and SDA operation, reducing the risk of signal floating and data errors.
+- Connector USB1 is designed for USB Type-C charging input, with a 5.1kΩ pull-down resistor on the CC pin to identify the device as a Sink, enabling correct power supply from the Source.
+- Connector U7 is compatible with the IP5306 charging management module for easy connection.
 
 
 ![image](https://github.com/user-attachments/assets/1ecd17ff-f9c4-4eb9-860a-081d3e06b4e9)
@@ -255,19 +255,21 @@ Picture from：https://www.b4x.com/android/forum/threads/how-to-connect-an-ardui
 
 ![image](https://github.com/user-attachments/assets/24f6962f-13e3-4e89-b849-e94ffdba82e8)
 
-⬆上圖所示的外殼分別為 Enclosure_A、Enclosure_B、Enclosure_C 和 Enclosure_Button 的 STL 檔案
+⬆The enclosure shown in the image consists of the STL files for Enclosure_A, Enclosure_B, Enclosure_C, and Enclosure_Button.
 
 .
 
 ![image](https://github.com/user-attachments/assets/5e6b1661-6399-4a89-9974-7d9b89bbcf68)
 
-⬆上圖所示的外殼分別為 Enclosure_Bracket_A、Enclosure_Bracket_B 和 Enclosure_Bracket_C 的 STL 檔案
+⬆The enclosure shown in the image consists of the STL files for Enclosure_Bracket_A, Enclosure_Bracket_B, and Enclosure_Bracket_C.
 
 ![image](https://github.com/user-attachments/assets/f5ed9a49-17f0-4481-8f44-68b133faf8a6)
 
-檔案共 7 個，主要外殼檔案包含 Enclosure_A、Enclosure_B、Enclosure_C、Enclosure_Button 共 4 個，以及後支架 Enclosure_Bracket_A、Enclosure_Bracket_B、Enclosure_Bracket_C 共 3 個。
-
-你可以在這裡獲得3D檔案下載：
+The files consist of 7 pieces in total:
+   - 4 main enclosure files: Enclosure_A, Enclosure_B, Enclosure_C, and Enclosure_Button.
+   - 3 rear bracket files: Enclosure_Bracket_A, Enclosure_Bracket_B, and Enclosure_Bracket_C.
+   
+You can download the 3D files here：
 https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure
 
 
