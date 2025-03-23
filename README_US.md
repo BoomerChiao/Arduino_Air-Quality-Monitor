@@ -16,6 +16,7 @@ For display, the system uses either a TFT color LCD screen or an OLED display pa
 Install Arduino software
 - Arduino software downloads：https://www.arduino.cc/en/software
 - 『Optional』 Taojingchi USART HMI software downloads：http://wiki2.tjc1688.com/download/usart_hmi.html
+  - ⚠️‼️The software is only available in Chinese, please note.‼️
 
 
 ![image](https://github.com/user-attachments/assets/f3161a06-ddbb-4171-99bf-20f8f908ab94)![image](https://github.com/user-attachments/assets/b0710f04-fd93-45aa-9160-a2d1f29711fd)
@@ -39,7 +40,7 @@ Install Arduino software
 1. Arduino Pro Mini ATmage328 (5V/16M)
 2. USB to UART Adapter (FTDI or CP2102)
 3. 0.96' OLED Display 128×64 4Pin IIC I2C
-4. 『Optional』TJC3224T128_011R_A01
+4. 『Optional』TJC3224T128_011R_A01 ⚠️‼️‼️
 5. PLANTOWER PMS9003M
 6. AHT20
 7. SHT40 (3.3~5V)
@@ -142,7 +143,8 @@ P.S. Other Library Installation
    - Open Arduino IDE and click "Sketch" > "Include Library" > "Add .ZIP Library...".
    - Search for the downloaded .ZIP library and click the "Open" button.
 
-##  USART HMI Code
+##  USART HMI Code ‼️‼️‼️
+### The software is only available in Chinese, please note.⚠️
 After downloading and installing the installation package provided on the official website, you can open the application.
 Next, select the USART HMI Code file "SGP_ARDUINO_.HMI" obtained from Git. After opening it, you can download the code to the purchased TJC3224T128_011R_A01 circuit board for flashing.
 
