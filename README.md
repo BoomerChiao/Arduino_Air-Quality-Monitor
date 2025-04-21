@@ -131,7 +131,7 @@ Arduino Air Quality Monitor 是一款高效能的空氣品質監測器，基於 
 安裝完成後，可前往 GitHub 的 Arduino code 資料夾，並下載 Aht20xSHT40xSgp30xPMSxU8G2xUSARTLCD 程式碼。
 下載後，可將其匯入 Arduino IDE 或相應的開發環境，進行編譯與燒錄。
 
-您可以從以下鏈接下載代碼：https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Code/Aht20xSHT40xSgp30xPMSxU8G2xUSARTLCD
+您可以從這裡下載代碼：https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Code/Aht20xSHT40xSgp30xPMSxU8G2xUSARTLCD
 
 .
 
@@ -145,13 +145,13 @@ P.S. 其他安裝Library
 依據官網提供的安裝包下載並安裝後，即可開啟應用程式。
 接著，選擇從 Git 取得的 USART HMI Code 程式檔案「SGP_ARDUINO_.HMI」，開啟後即可將程式碼下載至購買的 TJC3224T128_011R_A01 電路板上進行燒錄。
 
-您可以從以下鏈接下載代碼：https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Code/USART%20HMI
+您可以從這裡下載代碼：https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Code/USART%20HMI
 
 1. 開啟 Git 取得的「SGP_ARDUINO_.HMI」後，直接點擊「下載」。
 ![image](https://github.com/user-attachments/assets/82d4c529-5171-4741-a2a5-fa6b8e685ea8)
    
 
-2. 下載完成後，系統會跳出「串口下載」視窗。接著，點擊 「連機並開始下載」 以啟動程序。
+2. 「下載」按鈕點擊完成後，系統會跳出「串口下載」視窗。接著，點擊 「連機並開始下載」 以啟動程序。
 ![image](https://github.com/user-attachments/assets/33829e79-34ff-450c-8d9d-3e6059d6663a)
    
 
