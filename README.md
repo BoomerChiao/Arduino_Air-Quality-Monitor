@@ -184,6 +184,11 @@ Picture from：https://www.b4x.com/android/forum/threads/how-to-connect-an-ardui
    - Verify Voltage： Make sure the VCC connection matches the voltage requirements of your Pro Mini.
    - Auto-reset： If uploading code fails, try manually pressing the reset button on the Pro Mini just before uploading.
 
+
+##  UI、UX　（使用者介面）
+![image](https://github.com/user-attachments/assets/8b8f1606-1367-4109-b8cf-43c25be71b0b)
+
+
 ##  Advanced Design　（進階設計）
 為了簡化電子製作過程，可採用PCB印刷技術，以取代雜亂且難以管理的線路。
 
@@ -270,3 +275,44 @@ Picture from：https://www.b4x.com/android/forum/threads/how-to-connect-an-ardui
 https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure
 
 
+##  Product Showcase　（成品展示）
+
+![image](https://github.com/user-attachments/assets/6a883f15-1ecb-4908-9c0a-05175804008b)
+![image](https://github.com/user-attachments/assets/904a964c-7119-44af-b323-e664a1141164)
+
+⬆👈左圖展示的是具備充電模組與濾波耦合電路的完整設計；👉右圖則為省略相關模組的簡化版本。
+
+![image](https://github.com/user-attachments/assets/5c8f7808-2f43-4eff-99d6-fee495146004)
+
+⬆此圖為 OLED 版本顯示模組 正面成品圖
+
+![image](https://github.com/user-attachments/assets/5eaa7efd-2a6c-4770-8743-99e70a7bb08c)
+
+⬆此圖為簡化版本顯示模組 背面成品圖
+
+![image](https://github.com/user-attachments/assets/5a68ae87-86f9-433b-bbef-bddeb34cdcd6)
+
+⬆此圖為 LCD 版本顯示模組 正面成品圖
+
+![image](https://github.com/user-attachments/assets/2f4eb75a-cea9-4dfc-bbc0-eb8f537b134e)
+
+⬆此圖為具備充電模組與電池布局的 側面存放圖
+
+![image](https://github.com/user-attachments/assets/8b935066-21eb-410f-84de-88974288892b)
+
+⬆此圖為完整版本顯示模組 背面成品圖
+
+![image](https://github.com/user-attachments/assets/7d4dc535-557b-4cf1-894e-1d212dd3b8aa)
+![image](https://github.com/user-attachments/assets/7113d09d-ceb9-442e-9b3b-eb3564d1f434)
+![image](https://github.com/user-attachments/assets/2ff7a65e-b1ea-4c8b-acb3-04dad43ce9c6)
+
+
+
+##  References　（參考資料）
+1. https://www.arduino.cc/en/software
+2. http://wiki2.tjc1688.com/download/usart_hmi.html
+3. https://www.b4x.com/android/forum/threads/how-to-connect-an-arduino-pro-mini-to-a-pc-via-a-usb-to-serial-module.77010/
+4. https://learn.adafruit.com/adafruit-aht20/arduino
+5. https://www.icshop.com.tw/products/368030501785
+6. https://wiki.dfrobot.com/SHT40_Humidity_and_Temperature_Sensor_SKU_SEN0428
+7. https://how2electronics.com/interfacing-sgp30-co2-tvoc-sensor-with-arduino/
