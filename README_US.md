@@ -187,6 +187,27 @@ Picture from：https://www.b4x.com/android/forum/threads/how-to-connect-an-ardui
    - Verify Voltage： Make sure the VCC connection matches the voltage requirements of your Pro Mini.
    - Auto-reset： If uploading code fails, try manually pressing the reset button on the Pro Mini just before uploading.
 
+##  UI、UX　（使用者介面）
+![image](https://github.com/user-attachments/assets/8b8f1606-1367-4109-b8cf-43c25be71b0b)
+This project supports both LCD and OLED user interfaces, each designed for different user application scenarios to provide a simple and efficient user experience.
+
+The following sections briefly explain the functions and operations of each user interface.
+
+1. The left screen in the image above shows the LCD interface functions
+   - Setting Button: Tap to enter the basic settings page.
+   - Battery Power Display: Shows the current battery voltage (not yet precisely calibrated).
+   - TH Sensor Display : Displays current temperature and humidity values. Tap to access the backend for sensor data and basic charts.
+   - Gas Level Display: Shows the concentration of gases in the air. Tap to view detailed data and simple graphs.
+   - PM2.5 Display: Displays data of airborne particles of various sizes. Tap to view detailed charts and trends.
+  
+2. The right screen in the image above shows the OLED interface functions
+   - Battery : Shows the current battery voltage (not yet precisely calibrated).
+   - TH Sensor Display : Displays the current sensed temperature and humidity values.
+   - Gas Level Display: Displays the current gas concentration levels detected by the sensor.
+   - PM2.5 Display: Shows the concentration of PM2.5 (particulate matter) in the air.
+   - TVOC Detection+: If a 「＊」 symbol appears on the screen, it indicates that the enhanced TVOC detection mode is enabled, incorporating temperature and humidity into the analysis. If absent, the system operates in default mode.
+
+
 ##  Advanced Design　（進階設計）
 To simplify the electronics manufacturing process, PCB printing technology can be used to replace messy and difficult-to-manage wiring.
 
@@ -273,5 +294,50 @@ The files consist of 7 pieces in total:
    
 You can download the 3D files here：
 https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure
+
+
+##  Product Showcase　（成品展示）
+
+![image](https://github.com/user-attachments/assets/6a883f15-1ecb-4908-9c0a-05175804008b)
+![image](https://github.com/user-attachments/assets/904a964c-7119-44af-b323-e664a1141164)
+
+⬆👈The diagram on the left illustrates the full design, which includes a charging module and a filtering-coupling circuit; 👉the diagram on the right shows a simplified version with these modules omitted.
+
+![image](https://github.com/user-attachments/assets/5c8f7808-2f43-4eff-99d6-fee495146004)
+
+⬆Front view of the completed OLED display module.
+
+![image](https://github.com/user-attachments/assets/5eaa7efd-2a6c-4770-8743-99e70a7bb08c)
+
+⬆Rear view of the completed simplified display module.
+
+![image](https://github.com/user-attachments/assets/5a68ae87-86f9-433b-bbef-bddeb34cdcd6)
+
+⬆Front view of the completed LCD display module.
+
+![image](https://github.com/user-attachments/assets/2f4eb75a-cea9-4dfc-bbc0-eb8f537b134e)
+
+⬆Side view of the module featuring the charging circuit and battery layout.
+
+![image](https://github.com/user-attachments/assets/8b935066-21eb-410f-84de-88974288892b)
+
+⬆Rear view of the completed full-version display module.
+
+![image](https://github.com/user-attachments/assets/7d4dc535-557b-4cf1-894e-1d212dd3b8aa)
+![image](https://github.com/user-attachments/assets/7113d09d-ceb9-442e-9b3b-eb3564d1f434)
+![image](https://github.com/user-attachments/assets/2ff7a65e-b1ea-4c8b-acb3-04dad43ce9c6)
+
+
+
+##  References　（參考資料）
+1. https://www.arduino.cc/en/software
+2. http://wiki2.tjc1688.com/download/usart_hmi.html
+3. https://www.b4x.com/android/forum/threads/how-to-connect-an-arduino-pro-mini-to-a-pc-via-a-usb-to-serial-module.77010/
+4. https://learn.adafruit.com/adafruit-aht20/arduino
+5. https://www.icshop.com.tw/products/368030501785
+6. https://wiki.dfrobot.com/SHT40_Humidity_and_Temperature_Sensor_SKU_SEN0428
+7. https://how2electronics.com/interfacing-sgp30-co2-tvoc-sensor-with-arduino/
+
+
 
 
