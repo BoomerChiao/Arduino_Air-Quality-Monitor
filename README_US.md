@@ -207,7 +207,7 @@ The following sections briefly explain the functions and operations of each user
    - PM2.5 Display: Shows the concentration of PM2.5 (particulate matter) in the air.
    - TVOC Detection+: If a 「＊」 symbol appears on the screen, it indicates that the enhanced TVOC detection mode is enabled, incorporating temperature and humidity into the analysis. If absent, the system operates in default mode.
 
-P.S. For the activation or deactivation condition of the TVOC enhanced mode, ground the D7 pin for 3 seconds, then release the D7 pin to trigger the activation or deactivation of the TVOC enhanced mode.
+‼️P.S. For the activation or deactivation condition of the TVOC enhanced mode, ground the D7 pin for 3 seconds, then release the D7 pin to trigger the activation or deactivation of the TVOC enhanced mode.
 
 ##  Advanced Design　（進階設計）
 To simplify the electronics manufacturing process, PCB printing technology can be used to replace messy and difficult-to-manage wiring.
