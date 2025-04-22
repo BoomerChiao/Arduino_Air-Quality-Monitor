@@ -188,6 +188,25 @@ Picture from：https://www.b4x.com/android/forum/threads/how-to-connect-an-ardui
 ##  UI、UX　（使用者介面）
 ![image](https://github.com/user-attachments/assets/8b8f1606-1367-4109-b8cf-43c25be71b0b)
 
+本專題支援 LCD 與 OLED 兩種顯示使用者介面，分別針對不同使用者應用情境設計，以提供簡便且高效率的使用體驗。
+以下將分別簡述說明兩種使用者介面上，各功能區塊的用途與操作方式。
+
+1. 上圖左側畫面為 LCD 介面功能說明
+   - Setting Button（設定按鈕）：點擊進入基本設定頁面。
+   - Battery Power（電池電量顯示）：顯示目前電池電壓（尚未精準校正）。
+   - TH Sensor Display（溫濕度顯示）：顯示目前溫度與濕度數值，點擊後可進入後台查看感測數據與簡易圖表。
+   - Gas Level Display（氣體濃度顯示）：顯示空氣中氣體濃度，點擊後可查看詳細數據與簡易圖表。
+   - PM2.5 Display（懸浮粒子顯示）：顯示空氣中不同粒徑懸浮顆粒數據，點擊後可查看詳細圖表與變化趨勢。
+
+2. 上圖右側畫面為 OLED 介面功能說明
+   - Battery（電池電量顯示）：顯示目前電池電壓（尚未精準校正）。
+   - TH Sensor Display（溫濕度顯示）：顯示目前感測到的溫度與濕度數值。
+   - Gas Level Display（氣體濃度顯示）：顯示氣體感測器目前偵測到的各項濃度值。
+   - PM2.5 Display（懸浮粒子顯示）：顯示空氣中懸浮微粒（PM2.5）濃度。
+   - TVOC Detection+（TVOC 強化模式）：畫面若出現「＊」符號，表示已開啟 TVOC 強化模式，將溫濕度一併納入判斷；若無則為預設模式。
+
+
+   
 
 ##  Advanced Design　（進階設計）
 為了簡化電子製作過程，可採用PCB印刷技術，以取代雜亂且難以管理的線路。
