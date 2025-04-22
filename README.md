@@ -205,6 +205,8 @@ Picture from：https://www.b4x.com/android/forum/threads/how-to-connect-an-ardui
    - PM2.5 Display（懸浮粒子顯示）：顯示空氣中懸浮微粒（PM2.5）濃度。
    - TVOC Detection+（TVOC 強化模式）：畫面若出現「＊」符號，表示已開啟 TVOC 強化模式，將溫濕度一併納入判斷；若無則為預設模式。
 
+‼️P.S 針對TVOC強化模式的啟動或關閉條件設定，請將 D7 腳位進行接地3秒後，鬆開 D7 腳位，即可觸發TVOC強化模式的啟動或關閉條件。
+
 
    
 
@@ -222,6 +224,12 @@ Picture from：https://www.b4x.com/android/forum/threads/how-to-connect-an-ardui
 
 
 ![image](https://github.com/user-attachments/assets/1ecd17ff-f9c4-4eb9-860a-081d3e06b4e9)
+- Power management 採用IP5306進行電源管理，該晶片具備升壓功能及電池電源多重管理，能顯著減少周圍零件的需求，並有效縮小電源模組的體積。
+- Voltage Monitoring 電壓檢測電路的設計原理基於電阻分壓方式，透過分壓器將輸入電壓壓縮至控制器可讀取的範圍內，從而實現對電壓的有效監控。
+- U10 按鈕設計主要用於觸發D7腳位接地，從而啟動或完成特定的功能應用。
+- 其餘的PMS1、SGP、AHT_A、SHT、OLED、LCD皆為配套模組插座，用於連接相應的感測器和顯示模組。
+
+
 
 ###  PCB layout （電路布局）
 
