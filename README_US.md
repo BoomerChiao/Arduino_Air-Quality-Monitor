@@ -207,6 +207,7 @@ The following sections briefly explain the functions and operations of each user
    - PM2.5 Display: Shows the concentration of PM2.5 (particulate matter) in the air.
    - TVOC Detection+: If a 「＊」 symbol appears on the screen, it indicates that the enhanced TVOC detection mode is enabled, incorporating temperature and humidity into the analysis. If absent, the system operates in default mode.
 
+P.S. For the activation or deactivation condition of the TVOC enhanced mode, ground the D7 pin for 3 seconds, then release the D7 pin to trigger the activation or deactivation of the TVOC enhanced mode.
 
 ##  Advanced Design　（進階設計）
 To simplify the electronics manufacturing process, PCB printing technology can be used to replace messy and difficult-to-manage wiring.
@@ -222,6 +223,11 @@ This not only significantly reduces the risk of incorrect connections but also e
 
 
 ![image](https://github.com/user-attachments/assets/1ecd17ff-f9c4-4eb9-860a-081d3e06b4e9)
+- Power management： The IP5306 is used for power management, featuring boost functionality and multi-functional battery power management. It significantly reduces the need for surrounding components and effectively minimizes the size of the power module.
+- Voltage Monitoring： The voltage monitoring circuit is designed based on a resistive voltage divider, which compresses the input voltage to a range that can be read by the controller, enabling effective voltage monitoring.
+- The U10 button is primarily used to trigger the grounding of the D7 pin, thereby activating or completing specific functional applications.
+- The remaining modules PMS1, SGP, AHT_A, SHT, OLED, and LCD are all modular sockets used to connect the corresponding sensors and display modules.
+
 
 ###  PCB layout （電路布局）
 
