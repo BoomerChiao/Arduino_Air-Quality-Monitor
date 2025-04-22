@@ -1,6 +1,8 @@
 # Arduino_Air-Quality-Monitor
 (中文 | [English](README_US.md))
 
+![image](https://github.com/user-attachments/assets/69f7d60f-dce7-4d65-ac8b-84a9e41473f2)
+
 The Arduino based air quality monitoring system combines several sensors to measure various environmental factors.
 
 基於 Arduino 的空氣品質監測系統結合多種感測器來測量各種環境因素。
