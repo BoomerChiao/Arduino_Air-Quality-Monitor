@@ -335,6 +335,17 @@ https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure
 ![image](https://github.com/user-attachments/assets/7113d09d-ceb9-442e-9b3b-eb3564d1f434)
 ![image](https://github.com/user-attachments/assets/2ff7a65e-b1ea-4c8b-acb3-04dad43ce9c6)
 
+## ISSUE （已知問題）
+Q1. 檢測溫度偏高。
+   - SGP30 內建加熱裝置會產生熱量，影響溫度準確性；同時 IP5306 充電狀況下 IC 的熱堆積效應加劇。為確保準確性，需在通風良好的環境下使用。
+
+     ![image](https://github.com/user-attachments/assets/dd189a38-2a05-4fba-a7a4-9c7010ccddca)
+
+Q2. 檢測TVOC偏高。
+   - SGP30 傳感器需要空氣流動來確保測量環境中的有機氣體準確性，而缺乏空氣流動會影響氣體擴散，導致不準確的讀數。因此，維持良好的空氣流動對提升測量準確性至關重要。
+
+Q3. 電池電壓飄移。
+   - 已經進行過優化，目前此功能提供的是大致數值觀察。
 
 
 ##  References　（參考資料）
