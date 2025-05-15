@@ -304,6 +304,16 @@ Picture from：https://www.b4x.com/android/forum/threads/how-to-connect-an-ardui
 https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure
 
 
+![image](https://github.com/user-attachments/assets/8879a8de-7cc1-4cff-87aa-36759aa87ef3)
+
+![image](https://github.com/user-attachments/assets/b51de486-60c0-4d4c-8341-284f2b9ce705)
+
+⬆上圖所示的外殼分別為 Enclosure_Button、Mini_Enclosure_A、Mini_Enclosure_B 和 Mini_Enclosure_C 的 STL 檔案
+
+你可以在這裡獲得3D檔案下載：
+https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure/Mini
+
+
 ##  Product Showcase　（成品展示）
 
 ![image](https://github.com/user-attachments/assets/6a883f15-1ecb-4908-9c0a-05175804008b)
@@ -334,6 +344,12 @@ https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure
 ![image](https://github.com/user-attachments/assets/7d4dc535-557b-4cf1-894e-1d212dd3b8aa)
 ![image](https://github.com/user-attachments/assets/7113d09d-ceb9-442e-9b3b-eb3564d1f434)
 ![image](https://github.com/user-attachments/assets/2ff7a65e-b1ea-4c8b-acb3-04dad43ce9c6)
+
+![image](https://github.com/user-attachments/assets/53d21167-3ad1-43e4-b54e-c9889fcea658)
+![image](https://github.com/user-attachments/assets/db76369c-2862-46e8-a669-e3e8d3491700)
+![image](https://github.com/user-attachments/assets/be673bfc-d4bd-4d53-819d-fd4268ea6d4a)
+
+
 
 ## ISSUE （已知問題）
 Q1. 溫度偏高。
