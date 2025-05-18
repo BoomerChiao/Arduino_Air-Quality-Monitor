@@ -282,7 +282,7 @@ Picture from：https://www.b4x.com/android/forum/threads/how-to-connect-an-ardui
    - USB：SMD TYPE-C 6Pin (KH-TYPE-C-6P-T)
 
 
-###  3D casing （3D外殼）
+##  3D casing （3D外殼）
 
 ![image](https://github.com/user-attachments/assets/2df0a756-9bfb-4d62-a3d2-f06f0fde024f)
 
@@ -314,6 +314,24 @@ https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure
 你可以在這裡獲得3D檔案下載：
 https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure/Mini
 
+###  3D printed enclosure assembly　（3D外殼組裝）
+
+####  Mini_Enclosure assembly　（3D精簡版外殼組裝）
+
+![image](https://github.com/user-attachments/assets/4e3dcea7-b592-4257-8bc1-3ef0a068b271)
+
+⬆請先準備 M3 螺絲、螺帽 M3、 M3 六角雙母細牙銅柱 和 單頭細牙銅柱，請參考如下數量
+1. M3x5 或 M3x6 螺絲 *8
+2. M3 螺帽 *3
+3. M3 六角雙母細牙銅柱 10mm *3
+4. M3 六角雙母細牙銅柱 20mm *2
+5. M3 六角單頭細牙銅柱 8mm *1
+6. M3 六角單頭細牙銅柱 10mm *2
+7. M3 六角單頭細牙銅柱 15mm *1
+
+![image](https://github.com/user-attachments/assets/9e38243e-be3b-4a15-a976-95b1555b496a)
+
+⬆完成圖示如上
 
 ##  Product Showcase　（成品展示）
 
