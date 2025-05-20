@@ -217,6 +217,16 @@ Picture from：https://www.b4x.com/android/forum/threads/how-to-connect-an-ardui
 
 這不僅能顯著降低錯誤連接的風險，還能提升產品的穩定性與可靠性，特別是在 小型化 設備中，PCB能有效整合精細的電路佈局，減少體積並提升生產效率，使產品更加輕薄且具備更高的性能表現。
 
+您可於此下載 Gerber 檔案，並上傳至 JLCPCB 進行 PCB 訂製
+
+Gerber：https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/PCB
+
+JLCPCB：https://jlcpcb.com/
+
+您也可在此下載原理圖及 PCB 檔案，以進行後續編輯。
+
+oshwlab：https://oshwlab.com/chiaochieh/sgp30xshtxarduino_pro_202412
+
 ###  Circuit Design （電路設計）
 ![image](https://github.com/user-attachments/assets/fc58c8ef-e276-4195-9208-d72b3a10fb52)
 - 左側 MCU 電路的 I/O 口小電容可以用來 抑制低頻噪聲 ，並提高訊號穩定性。
@@ -281,6 +291,15 @@ Picture from：https://www.b4x.com/android/forum/threads/how-to-connect-an-ardui
 7. Power Connector
    - USB：SMD TYPE-C 6Pin (KH-TYPE-C-6P-T)
 
+您可於此下載 Gerber 檔案，並上傳至 JLCPCB 進行 PCB 訂製
+
+Gerber：https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/PCB
+
+JLCPCB：https://jlcpcb.com/
+
+您也可在此下載原理圖及 PCB 檔案，以進行後續編輯。
+
+oshwlab：https://oshwlab.com/chiaochieh/sgp30xshtxarduino_pro_202412
 
 ##  3D casing （3D外殼）
 
@@ -414,3 +433,6 @@ Q4. 後續是否提供更新？
 5. https://www.icshop.com.tw/products/368030501785
 6. https://wiki.dfrobot.com/SHT40_Humidity_and_Temperature_Sensor_SKU_SEN0428
 7. https://how2electronics.com/interfacing-sgp30-co2-tvoc-sensor-with-arduino/
+8. https://easyeda.com/editor
+9. https://jlcpcb.com/
+10. https://oshwlab.com/
