@@ -319,6 +319,7 @@ https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure/M
 ####  Mini_Enclosure assembly　（3D精簡版外殼組裝）
 
 ![image](https://github.com/user-attachments/assets/4e3dcea7-b592-4257-8bc1-3ef0a068b271)
+![image](https://github.com/user-attachments/assets/5894995f-57d5-493b-8049-4273da685398)
 
 ⬆請先準備 M3 螺絲、螺帽 M3、 M3 六角雙母細牙銅柱 和 單頭細牙銅柱，請參考如下數量
 1. M3x5 或 M3x6 螺絲 *8
