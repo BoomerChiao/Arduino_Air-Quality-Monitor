@@ -322,6 +322,8 @@ oshwlab：https://oshwlab.com/chiaochieh/sgp30xshtxarduino_pro_202412
 你可以在這裡獲得3D檔案下載：
 https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure
 
+thingiverse：https://www.thingiverse.com/thing:7043581
+
 .
 
 ![image](https://github.com/user-attachments/assets/8879a8de-7cc1-4cff-87aa-36759aa87ef3)
@@ -332,6 +334,8 @@ https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure
 
 你可以在這裡獲得3D檔案下載：
 https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure/Mini
+
+thingiverse：https://www.thingiverse.com/thing:7043588
 
 ###  3D printed enclosure assembly　（3D外殼組裝）
 
