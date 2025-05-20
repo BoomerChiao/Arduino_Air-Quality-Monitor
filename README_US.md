@@ -303,6 +303,53 @@ The files consist of 7 pieces in total:
 You can download the 3D files here：
 https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure
 
+.
+
+![image](https://github.com/user-attachments/assets/8879a8de-7cc1-4cff-87aa-36759aa87ef3)
+
+![image](https://github.com/user-attachments/assets/b51de486-60c0-4d4c-8341-284f2b9ce705)
+
+⬆The enclosure shown in the image consists of the STL files for  Enclosure_Button、Mini_Enclosure_A、Mini_Enclosure_B, and Mini_Enclosure_C.
+
+You can download the 3D files here：
+https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure/Mini
+
+###  3D printed enclosure assembly　（3D外殼組裝）
+
+####  Enclosure assembly　（3D正常版外殼組裝）
+
+![image](https://github.com/user-attachments/assets/6c63d872-016a-49de-8c26-6b4c482282a0)
+
+⬆Please prepare the following M3 screws, nuts, and single-head fine-thread standoffs:
+1. M3x5 screw × 1
+2. M3 nut × 4
+3. M3 hex single-head fine-thread standoff 20mm × 6
+4. M3 hex single-head fine-thread standoff 15mm × 1
+
+![image](https://github.com/user-attachments/assets/8bd56318-b7f5-4049-ab0c-64f3792df0c6)
+![image](https://github.com/user-attachments/assets/c4cca5df-b334-4a62-bfa5-6155b0309f1e)
+
+⬆The completed assembly is shown above.
+
+.
+
+####  Mini_Enclosure assembly　（3D精簡版外殼組裝）
+
+![image](https://github.com/user-attachments/assets/4e3dcea7-b592-4257-8bc1-3ef0a068b271)
+
+⬆Please prepare M3 screws, M3 nuts, M3 hex double-female fine-thread standoffs, and single-head fine-thread standoffs. Refer to the quantities below:
+1. M3x5 or M3x6 screw × 8
+2. M3 nut × 3
+3. M3 hex double-female fine-thread standoff 10mm × 3
+4. M3 hex double-female fine-thread standoff 20mm × 2
+5. M3 hex single-head fine-thread standoff 8mm × 1
+6. M3 hex single-head fine-thread standoff 10mm × 2
+7. M3 hex single-head fine-thread standoff 15mm × 1
+
+![image](https://github.com/user-attachments/assets/5894995f-57d5-493b-8049-4273da685398)
+![image](https://github.com/user-attachments/assets/9e38243e-be3b-4a15-a976-95b1555b496a)
+
+⬆The completed assembly is shown above.
 
 ##  Product Showcase　（成品展示）
 
@@ -335,6 +382,9 @@ https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure
 ![image](https://github.com/user-attachments/assets/7113d09d-ceb9-442e-9b3b-eb3564d1f434)
 ![image](https://github.com/user-attachments/assets/2ff7a65e-b1ea-4c8b-acb3-04dad43ce9c6)
 
+![image](https://github.com/user-attachments/assets/53d21167-3ad1-43e4-b54e-c9889fcea658)
+![image](https://github.com/user-attachments/assets/f19f7f66-de2c-46d4-9b2c-179af0edd5cd)
+![image](https://github.com/user-attachments/assets/3c4e63df-e414-4d0f-823a-d1dca9738c04)
 
 
 ##  References　（參考資料）
