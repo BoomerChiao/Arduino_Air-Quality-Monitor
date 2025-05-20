@@ -316,6 +316,22 @@ https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure/M
 
 ###  3D printed enclosure assembly　（3D外殼組裝）
 
+####  Enclosure assembly　（3D正常版外殼組裝）
+
+![image](https://github.com/user-attachments/assets/6c63d872-016a-49de-8c26-6b4c482282a0)
+
+⬆請先準備 M3 螺絲、螺帽 M3 和 M3 單頭細牙銅柱，請參考如下數量
+1. M3x5 螺絲 *1
+2. M3 螺帽 *4
+3. M3 六角單頭細牙銅柱 20mm *6
+4. M3 六角單頭細牙銅柱 15mm *1
+
+![image](https://github.com/user-attachments/assets/8bd56318-b7f5-4049-ab0c-64f3792df0c6)
+![image](https://github.com/user-attachments/assets/c4cca5df-b334-4a62-bfa5-6155b0309f1e)
+
+⬆完成圖示如上
+
+
 ####  Mini_Enclosure assembly　（3D精簡版外殼組裝）
 
 ![image](https://github.com/user-attachments/assets/4e3dcea7-b592-4257-8bc1-3ef0a068b271)
