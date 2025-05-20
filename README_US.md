@@ -216,6 +216,16 @@ To simplify the electronics manufacturing process, PCB printing technology can b
 
 This not only significantly reduces the risk of incorrect connections but also enhances the stability and reliability of the product. Especially in compact devices, PCBs can effectively integrate intricate circuit layouts, reduce size, and improve production efficiency, making the product thinner and more powerful.
 
+You can download the Gerber files here and upload them to JLCPCB to order the PCB:
+
+Gerber: https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/PCB
+
+JLCPCB: https://jlcpcb.com/
+
+You can also download the schematic and PCB design files here for further editing:
+
+OSHWHub: https://oshwlab.com/chiaochieh/sgp30xshtxarduino_pro_202412
+
 ###  Circuit Design （電路設計）
 ![image](https://github.com/user-attachments/assets/fc58c8ef-e276-4195-9208-d72b3a10fb52)
 - The small capacitor on the left-side MCU I/O pins suppresses low-frequency noise and improves signal stability.
@@ -279,6 +289,15 @@ This not only significantly reduces the risk of incorrect connections but also e
 7. Power Connector
    - USB：SMD TYPE-C 6Pin (KH-TYPE-C-6P-T)
 
+You can download the Gerber files here and upload them to JLCPCB to order the PCB:
+
+Gerber: https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/PCB
+
+JLCPCB: https://jlcpcb.com/
+
+You can also download the schematic and PCB design files here for further editing:
+
+OSHWHub: https://oshwlab.com/chiaochieh/sgp30xshtxarduino_pro_202412
 
 ###  3D casing （3D外殼）
 
@@ -395,7 +414,9 @@ https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure/M
 5. https://www.icshop.com.tw/products/368030501785
 6. https://wiki.dfrobot.com/SHT40_Humidity_and_Temperature_Sensor_SKU_SEN0428
 7. https://how2electronics.com/interfacing-sgp30-co2-tvoc-sensor-with-arduino/
-
+8. https://easyeda.com/editor
+9. https://jlcpcb.com/
+10. https://oshwlab.com/
 
 
 
