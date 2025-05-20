@@ -322,6 +322,8 @@ The files consist of 7 pieces in total:
 You can download the 3D files here：
 https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure
 
+thingiverse：https://www.thingiverse.com/thing:7043581
+
 .
 
 ![image](https://github.com/user-attachments/assets/8879a8de-7cc1-4cff-87aa-36759aa87ef3)
@@ -332,6 +334,8 @@ https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure
 
 You can download the 3D files here：
 https://github.com/BoomerChiao/Arduino_Air-Quality-Monitor/tree/main/Enclosure/Mini
+
+thingiverse：https://www.thingiverse.com/thing:7043588
 
 ###  3D printed enclosure assembly　（3D外殼組裝）
 
